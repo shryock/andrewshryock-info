@@ -5,6 +5,8 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
-  title = 'Andrew Shryock\'s Page' ;
+  title = 'Andrew Shryock';
+  description = 'Senior in Computer Science at NC State';
 }
