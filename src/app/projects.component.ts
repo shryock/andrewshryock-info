@@ -3,14 +3,34 @@ import { PersonalListEntry } from './personallistentry';
 
 @Component({
     selector: 'projects',
-    templateUrl: './projects.component.html',
-    styleUrls: ['./projects.component.css']
+    templateUrl: './personallist.component.html',
+    styleUrls: ['./personallist.component.css']
 })
 
 export class ProjectsComponent {
-    expList = [
-        { name: "SAS", description: "SAS internship" },
-        { name: "PointSource", description: "PS internship" },
-        { name: "Bamboo Mobile Health", description: "web developer" }
+    parallaxImage = "img/asteroidEscapeTitle.JPG";
+    listTitle = "Projects";
+    list = [
+        {
+            name: "Asteroid Escape",
+            time: "Fall 2016",
+            description: [
+                "Created in about a week for my Intro to Game Design course, Asteroid Escape",
+                "is an \"infinite runner\" in which you control a spaceship through an asteroid ",
+                "field. Created using GameMaker Studio. Check out my repo on GitHub for a download!"
+            ]
+        },
+        {
+            name: "PointSource",
+            description: [
+                "PS internship"
+            ]
+        },
+        {
+            name: "Bamboo Mobile Health",
+            description: [
+                "web developer"
+            ]
+        }
     ];
 }

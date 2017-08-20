@@ -1,1 +1,19 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+html {
+    background: #e6e6e6;
+}
+
+.section-title {
+    color: #369;
+    font-family: Helvetica;
+    font-size: 250%;
+    font-weight: bold;
+}
+
+.section-divider {
+    height: 350px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #1a1a1a;
+}

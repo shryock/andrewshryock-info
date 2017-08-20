@@ -1,9 +1,12 @@
 import { BrowserModule }           from '@angular/platform-browser';
 import { NgModule }                from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsModule }             from '@angular/forms';
 import { MdToolbarModule }         from '@angular/material';
 import { MdButtonModule }          from '@angular/material';
 import { MdListModule }            from '@angular/material';
+import { FlexLayoutModule }        from '@angular/flex-layout';
+import { Ng2ParallaxScrollModule } from 'ng2-parallax-scroll';
 
 import { AppComponent }            from './app.component';
 import { NavComponent }            from './nav.component';
@@ -30,7 +33,9 @@ import { SocialComponent }         from './social.component';
     BrowserAnimationsModule,
     MdToolbarModule,
     MdButtonModule,
-    MdListModule
+    MdListModule,
+    FlexLayoutModule,
+    Ng2ParallaxScrollModule
   ],
   providers: [],
   bootstrap: [AppComponent]

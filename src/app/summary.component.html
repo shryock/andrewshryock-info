@@ -1,4 +1,16 @@
-<div>
-    <h2 class="summary-title">Summary</h2>
-    <p class="summary-content">{{summaryContent}}</p>
-</div>
+<div class="summary-content-container" fxLayout="column">
+    <div fxFlex="auto" fxLayout="row">
+        <div fxFlex fxLayout="column">
+            <img fxFlexAlign="center" class="summary-image" src="img/ePackProfilePic.jpg" />
+        </div>
+        <div fxFlex fxLayout="row">
+            <div fxFlex="20%" class="section-title">
+                Summary
+            </div>
+            <div fxFlex="5px" fxFlexAlign="center" class="section-divider"></div>
+            <div fxFlex="70%" fxFlexAlign="center" class="summary-content">
+                {{summaryContent}}
+            </div>
+        </div>
+    </div>
+</div><br/>

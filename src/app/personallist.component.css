@@ -1,0 +1,19 @@
+.personal-list {
+    list-style: none;
+}
+
+.personal-list-entry-name {
+    color: #1a1a1a;
+    font-family: Arial;
+    font-size: 200%;
+}
+
+.personal-list-entry-time {
+    text-align: right;
+}
+
+.personal-list-entry-description {
+    color: #1a1a1a;
+    font-family: Arial;
+    font-size: 150%;
+}
