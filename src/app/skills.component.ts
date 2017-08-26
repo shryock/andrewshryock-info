@@ -8,10 +8,11 @@ import { PersonalListEntry } from './personallistentry';
 })
 
 export class SkillsComponent {
+    parallaxImage = "";
     listTitle = "Skills"
     list = [
         {
-            name: "Lower Level Programming",
+            name: "Application/Systems Programming",
             description: [ 
                 "Programming in C, C++, and Java", 
                 "Development and usage of unit testing frameworks",

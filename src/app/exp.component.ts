@@ -8,6 +8,7 @@ import { PersonalListEntry } from './personallistentry';
 })
 
 export class ExpComponent {
+    parallaxImage = "";
     listTitle = "Experience";
     list = [
         {
@@ -59,7 +60,7 @@ export class ExpComponent {
             description: [
                 "Team member for carbon dioxide detection device research project",
                 "Developed an Android application that connected to the device via Bluetooth",
-                "Presented at NC State's Summer Research Sumposium 2015"
+                "Presented at NC State's Summer Research Symposium 2015"
             ]
         }
     ];

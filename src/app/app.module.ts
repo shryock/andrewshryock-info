@@ -1,21 +1,18 @@
-import { BrowserModule }           from '@angular/platform-browser';
-import { NgModule }                from '@angular/core';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { FormsModule }             from '@angular/forms';
-import { MdToolbarModule }         from '@angular/material';
-import { MdButtonModule }          from '@angular/material';
-import { MdListModule }            from '@angular/material';
-import { FlexLayoutModule }        from '@angular/flex-layout';
-import { Ng2ParallaxScrollModule } from 'ng2-parallax-scroll';
+import { BrowserModule }            from '@angular/platform-browser';
+import { NgModule }                 from '@angular/core';
+import { BrowserAnimationsModule }  from '@angular/platform-browser/animations';
+import { FormsModule }              from '@angular/forms';
+import { FlexLayoutModule }         from '@angular/flex-layout';
+import { NguiParallaxScrollModule } from '@ngui/parallax-scroll';
 
-import { AppComponent }            from './app.component';
-import { NavComponent }            from './nav.component';
-import { SummaryComponent }        from './summary.component';
-import { SkillsComponent }         from './skills.component';
-import { ExpComponent }            from './exp.component';
-import { ProjectsComponent }       from './projects.component';
-import { AboutComponent }          from './about.component';
-import { SocialComponent }         from './social.component';
+import { AppComponent }             from './app.component';
+import { NavComponent }             from './nav.component';
+import { SummaryComponent }         from './summary.component';
+import { SkillsComponent }          from './skills.component';
+import { ExpComponent }             from './exp.component';
+import { ProjectsComponent }        from './projects.component';
+import { AboutComponent }           from './about.component';
+import { SocialComponent }          from './social.component';
 
 @NgModule({
   declarations: [
@@ -31,11 +28,8 @@ import { SocialComponent }         from './social.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MdToolbarModule,
-    MdButtonModule,
-    MdListModule,
     FlexLayoutModule,
-    Ng2ParallaxScrollModule
+    NguiParallaxScrollModule
   ],
   providers: [],
   bootstrap: [AppComponent]

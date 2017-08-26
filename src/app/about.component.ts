@@ -8,5 +8,6 @@ import { PersonalListEntry } from './personallistentry';
 })
 
 export class AboutComponent {
-    aboutContent = "About this page"
+    // not sure if download directive is required or not
+    aboutContent = "<a href=\"./3rdpartylicenses.txt\" target=\"_blank\">Licenses</a>"
 }

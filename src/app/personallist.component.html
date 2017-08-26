@@ -1,5 +1,5 @@
 <div fxFlexAlign="center">
-    <div *ngIf="parallaxImage !== undefined" fxLayout="row" fxLayoutAlign="start center" ng2-parallax style="height: 400px;">
+    <div *ngIf='parallaxImage !== ""' fxLayout="row" fxLayoutAlign="start center" ngui-parallax style="height: 400px;">
         <img src="{{parallaxImage}}"/>
     </div><br/>
     <div fxLayout="row" fxLayoutAlign="space-around">
@@ -14,10 +14,8 @@
                     <div fxFlex class="personal-list-entry-time" *ngIf="listEntry.time !== undefined">
                         {{listEntry.time}}
                     </div>
-                </div>
-                <div *ngFor="let desc of listEntry.description" md-line class="personal-list-entry-description">
-                    {{desc}}
-                </div>
+                </div><hr class="divider"/>
+                <div *ngFor="let desc of listEntry.description" md-line class="personal-list-entry-description" [innerHTML]="desc"></div>
                 <br/><br/>
             </li>
         </ul>

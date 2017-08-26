@@ -5,11 +5,18 @@
 .personal-list-entry-name {
     color: #1a1a1a;
     font-family: Arial;
+    font-weight: bold;
     font-size: 200%;
 }
 
 .personal-list-entry-time {
     text-align: right;
+}
+
+.divider {
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #1a1a1a inset;
 }
 
 .personal-list-entry-description {

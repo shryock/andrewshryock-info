@@ -1,17 +1,7 @@
-.summary-title {
-    color: #369;
-    font-family: Helvetica;
-    font-size: 200%;
-    font-weight: bold;
-}
-
-.summary-content-container {
-
-}
-
 .summary-image {
     width: 50%;
-    border-radius: 50%;
+    border-radius: 20%;
+    margin-right: 5%;
 }
 
 .summary-content {

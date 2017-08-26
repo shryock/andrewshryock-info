@@ -1,16 +1,12 @@
 <div class="summary-content-container" fxLayout="column">
-    <div fxFlex="auto" fxLayout="row">
-        <div fxFlex fxLayout="column">
-            <img fxFlexAlign="center" class="summary-image" src="img/ePackProfilePic.jpg" />
+    <div fxFlex="auto" fxLayout="row" fxLayoutAlign="space-between start">
+        <img fxFlex="30%" class="summary-image" src="img/ePackProfilePic.jpg" />
+        <div fxFlex class="section-title">
+            Summary
         </div>
-        <div fxFlex fxLayout="row">
-            <div fxFlex="20%" class="section-title">
-                Summary
-            </div>
-            <div fxFlex="5px" fxFlexAlign="center" class="section-divider"></div>
-            <div fxFlex="70%" fxFlexAlign="center" class="summary-content">
-                {{summaryContent}}
-            </div>
+        <div fxFlex="5px" fxFlexAlign="center" class="section-divider"></div>
+        <div fxFlex="50%" fxFlexAlign="center" class="summary-content">
+            {{summaryContent}}
         </div>
     </div>
 </div><br/>

@@ -1,11 +1,10 @@
-@import "~@angular/material/prebuilt-themes/indigo-pink.css";
-
 html {
-    background: #e6e6e6;
+    background: linear-gradient(to left, #f2f2f2, #cccccc);
+    background: linear-gradient(to right, #f2f2f2, #cccccc);
 }
 
 .section-title {
-    color: #369;
+    color: #336699;
     font-family: Helvetica;
     font-size: 250%;
     font-weight: bold;

@@ -9,7 +9,7 @@ import { PersonalListEntry } from './personallistentry';
 
 export class ProjectsComponent {
     parallaxImage = "img/asteroidEscapeTitle.JPG";
-    listTitle = "Projects";
+    listTitle = "Other Projects";
     list = [
         {
             name: "Asteroid Escape",

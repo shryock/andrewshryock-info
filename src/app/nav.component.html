@@ -1,9 +1,9 @@
-<md-toolbar color="primary">
-    <span class="title">{{title}}</span>
-    <span class="fill-empty-space"></span>
-    <a md-raised-button class="nav-button" routerLink="." href="#summary">{{summary}}</a>
-    <a md-raised-button class="nav-button" routerLink="." href="#skills">{{skills}}</a>
-    <a md-raised-button class="nav-button" routerLink="." href="#exp">{{exp}}</a>
-    <a md-raised-button class="nav-button" routerLink="." href="#projects">{{projects}}</a>
-    <a md-raised-button class="nav-button" routerLink="." href="#about">{{about}}</a>
-</md-toolbar>
+<div fxLayout="row" fxLayoutAlign="space-around center" class="nav-content-container">
+    <div class="title">{{title}}</div>
+    <div fxFlex="30%"></div>
+    <a fxFlex="5%" class="nav-button" href="#summary">{{summary}}</a>
+    <a fxFlex="5%" class="nav-button" href="#skills">{{skills}}</a>
+    <a fxFlex="5%" class="nav-button" href="#exp">{{exp}}</a>
+    <a fxFlex="5%" class="nav-button" href="#projects">{{projects}}</a>
+    <a fxFlex="5%" class="nav-button" href="#about">{{about}}</a>
+</div><br/><br/>
