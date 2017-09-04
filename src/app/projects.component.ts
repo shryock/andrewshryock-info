@@ -14,23 +14,20 @@ export class ProjectsComponent {
         {
             name: "Asteroid Escape",
             time: "Fall 2016",
-            description: [
-                "Created in about a week for my Intro to Game Design course, Asteroid Escape",
-                "is an \"infinite runner\" in which you control a spaceship through an asteroid ",
-                "field. Created using GameMaker Studio. Check out my repo on GitHub for a download!"
-            ]
+            description:
+                "Created in about a week for my Intro to Game Design course, Asteroid Escape<br/>" +
+                "is an \"infinite runner\" in which you control a spaceship through an asteroid<br/>" +
+                "field. Created using GameMaker Studio. Check out my repo on GitHub for a download!<br/>"
         },
         {
             name: "PointSource",
-            description: [
-                "PS internship"
-            ]
+            description:
+                "PS internship<br/>"
         },
         {
             name: "Bamboo Mobile Health",
-            description: [
-                "web developer"
-            ]
+            description:
+                "web developer<br/>"
         }
     ];
 }

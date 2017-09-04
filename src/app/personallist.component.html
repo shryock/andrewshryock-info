@@ -1,21 +1,19 @@
 <div fxFlexAlign="center">
-    <div *ngIf='parallaxImage !== ""' fxLayout="row" fxLayoutAlign="start center" ngui-parallax style="height: 400px;">
+<!--     <div *ngIf='parallaxImage !== ""' fxLayout="row" fxLayoutAlign="start center" ngui-parallax style="height: 400px;">
         <img src="{{parallaxImage}}"/>
-    </div><br/>
-    <div fxLayout="row" fxLayoutAlign="space-around">
-        <div fxFlex class="section-title">{{listTitle}}</div>
-        <div fxFlex="5px" fxFlexAlign="center" class="section-divider"></div>
+    </div><br/> -->
+    <div fxLayout="row">
+        <div fxFlex class="section-title" [innerHTML]="listTitle"></div>
+        <div fxFlex="5px" fxFlexAlign="start" class="section-divider"></div>
         <ul fxFlex="grow" class="personal-list">
             <li *ngFor="let listEntry of list">
                 <div md-line fxLayout="row" class="personal-list-entry-name">
-                    <div fxFlex>
-                        {{listEntry.name}}
+                    <div fxFlex [innerHTML]="listEntry.name">
                     </div>
-                    <div fxFlex class="personal-list-entry-time" *ngIf="listEntry.time !== undefined">
-                        {{listEntry.time}}
+                    <div fxFlex class="personal-list-entry-time" *ngIf="listEntry.time !== undefined" [innerHTML]="listEntry.time">
                     </div>
                 </div><hr class="divider"/>
-                <div *ngFor="let desc of listEntry.description" md-line class="personal-list-entry-description" [innerHTML]="desc"></div>
+                <div md-line class="personal-list-entry-description" [innerHTML]="listEntry.description"></div>
                 <br/><br/>
             </li>
         </ul>

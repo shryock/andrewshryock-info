@@ -6,7 +6,7 @@
     color: #1a1a1a;
     font-family: Arial;
     font-weight: bold;
-    font-size: 200%;
+    font-size: 150%;
 }
 
 .personal-list-entry-time {
@@ -22,5 +22,5 @@
 .personal-list-entry-description {
     color: #1a1a1a;
     font-family: Arial;
-    font-size: 150%;
+    font-size: 125%;
 }

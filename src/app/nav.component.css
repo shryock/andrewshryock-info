@@ -14,23 +14,11 @@
   margin-left: 5%;
 }
 
-a:link {
-}
-
-a:hover {
-    border-style: solid;
-    border-color: #336699;
-}
-
 .nav-button {
-    color: #1a1a1a;
+    color: #d9d9d9;
     text-align: center;
     text-decoration: none;
     font-family: Arial;
     font-weight: bold;
-    background: linear-gradient(to right, #f2f2f2, #cccccc);
-    padding: .75%;
-    border-style: solid;
-    border-radius: 10%;
-    border-color: #d9d9d9;
+    font-size: 150%;
 }

@@ -2,11 +2,9 @@
     <div fxFlex="auto" fxLayout="row" fxLayoutAlign="space-between start">
         <img fxFlex="30%" class="summary-image" src="img/ePackProfilePic.jpg" />
         <div fxFlex class="section-title">
-            Summary
+            About me
         </div>
         <div fxFlex="5px" fxFlexAlign="center" class="section-divider"></div>
-        <div fxFlex="50%" fxFlexAlign="center" class="summary-content">
-            {{summaryContent}}
-        </div>
+        <div fxFlex="50%" fxFlexAlign="center" class="summary-content" [innerHTML]="summaryContent"></div>
     </div>
 </div><br/>

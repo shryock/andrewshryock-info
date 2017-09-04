@@ -6,7 +6,7 @@ html {
 .section-title {
     color: #336699;
     font-family: Helvetica;
-    font-size: 250%;
+    font-size: 200%;
     font-weight: bold;
 }
 
@@ -15,4 +15,26 @@ html {
     margin-left: 40px;
     margin-right: 40px;
     background-color: #1a1a1a;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #808080;
+}
+
+a:visited {
+    color: #808080;
+}
+
+a:hover {
+    text-shadow: 2px 2px #cccccc;
+}
+
+.background-tag {
+    width: 10%;
+    height: auto;
+    opacity: 0.25;
 }
