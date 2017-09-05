@@ -1,9 +1,13 @@
-<div fxLayout="row" fxLayoutAlign="space-around center" class="nav-content-container">
-    <div class="title" [innerHTML]="title"></div>
-    <div fxFlex="20%"></div>
-    <a fxFlex="10%" class="nav-button" href="#summary" [innerHTML]="summary"></a>
-    <a fxFlex="10%" class="nav-button" href="#skills" [innerHTML]="skills"></a>
-    <a fxFlex="10%" class="nav-button" href="#exp" [innerHTML]="exp"></a>
-<!--     <a fxFlex="10%" class="nav-button" href="#projects" [innerHTML]="projects"></a>
- -->    <a fxFlex="10%" class="nav-button" href="#about" [innerHTML]="about"></a>
-</div><br/><br/>
+<div fxLayout="column" class="nav-content-container">
+    <img fxFlexAlign="start" src="img/html.png" class="background-tag"/>
+    <img fxFlexAlign="center" src="img/title.png" class="title-img"/><br/>
+    <div fxLayout="row" fxLayoutAlign="space-around center">
+        <div fxFlex="20%"></div>
+        <a href="#summary" class="nav-link"><img src="img/about.png" class="link-img"/></a>
+        <a href="#skills" class="nav-link"><img src="img/skills.png" class="link-img"/></a>
+        <a href="#exp" class="nav-link"><img src="img/exp.png" class="link-img"/></a>
+        <a href="#about" class="nav-link"><img src="img/pageinfo.png" class="link-img"/></a>
+        <div fxFlex="20%"></div>
+    </div><br/>
+    <img src="img/sunset.jpg" class="divider-img"/>
+</div>

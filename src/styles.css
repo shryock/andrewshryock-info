@@ -3,6 +3,10 @@ html {
     background: linear-gradient(to right, #f2f2f2, #cccccc);
 }
 
+body {
+    margin: 0;
+}
+
 .section-title {
     color: #336699;
     font-family: Helvetica;
@@ -15,6 +19,7 @@ html {
     margin-left: 40px;
     margin-right: 40px;
     background-color: #1a1a1a;
+    border-radius: 10%;
 }
 
 a {
@@ -29,12 +34,7 @@ a:visited {
     color: #808080;
 }
 
-a:hover {
-    text-shadow: 2px 2px #cccccc;
-}
-
 .background-tag {
     width: 10%;
     height: auto;
-    opacity: 0.25;
 }

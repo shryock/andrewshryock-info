@@ -8,9 +8,7 @@ import { PersonalListEntry } from './personallistentry';
 })
 
 export class AboutComponent {
-    // not sure if download directive is required or not
+    aboutTitle = "About this page"
     aboutContent =
-        "This page was created using the <a class=\"link\" href=\"https://angular.io\">Angular</a> and <a class=\"link\" href=\"https://nodejs.org\">Node.js</a> JavaScript frameworks and Node modules installed via <a href=\"https://npmjs.org\">npm</a>.<br/>" +
-        "Click <a class=\"link\" href=\"./3rdpartylicenses.txt\" target=\"_blank\">here</a> for the licenses of resources used.<br/>" +
-        "Check out this website's <a class=\"link\" href=\"https://github.com/shryock/andrewshryock-info\">Github repo!</a><br/>";
+        "This page was created using the <a class=\"link\" href=\"https://angular.io\">Angular</a> and <a class=\"link\" href=\"https://nodejs.org\">Node.js</a> JavaScript frameworks with Node modules installed via <a href=\"https://npmjs.org\">npm</a>.<br/>";
 }

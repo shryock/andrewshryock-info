@@ -1,10 +1,24 @@
+.pageinfo-content-container {
+    background: linear-gradient(to bottom right, #3963c6, #223c77);
+}
+
 .about-title {
-    color: #369;
-    font-family: Arial;
+    color: #cccccc;
+    font-family: SimSun;
+    font-size: 200%;
+    font-weight: bold;
 }
 
 .about-content {
-    color: #1a1a1a;
-    font-family: Arial;
+    color: #cccccc;
+    font-family: SimSun;
     font-size: 150%;
+}
+
+.about-link {
+    text-align: center;
+}
+
+.about-img {
+    width: 60%;
 }

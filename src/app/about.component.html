@@ -1,5 +1,10 @@
-<div>
-    <div class="section-title">About this page</div>
-    <div class="about-content" [innerHTML]="aboutContent"></div>
-    <br/><br/>
+<div fxLayout="column" class="pageinfo-content-container">
+    <div class="about-title" [innerHTML]="aboutTitle"></div>
+    <div class="about-content" [innerHTML]="aboutContent"></div><br/>
+    <div fxLayout="row" fxLayoutAlign="space-around center">
+        <a href="./3rdpartylicenses.txt" class="about-link"><img src="img/licenses.png" class="about-img"/></a>
+        <a href="https://github.com/shryock/andrewshryock-info" class="about-link"><img src="img/repo.png" class="about-img"/></a>
+    </div>
+    <br/>
+    <img fxFlexAlign="end" src="img/htmlc.png" class="background-tag"/>
 </div>

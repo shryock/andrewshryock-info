@@ -1,24 +1,20 @@
 .nav-content-container {
-    background-color: #336699;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    border-radius: 1%;
-    border: solid;
-    border-color: #1a1a1a;
+    background: linear-gradient(to bottom right, #3963c6, #223c77);
 }
 
-.title {
-  color: #d9d9d9;
-  font-family: Helvetica;
-  font-size: 400%;
-  margin-left: 5%;
+.title-img {
+    width: 30%;
 }
 
-.nav-button {
-    color: #d9d9d9;
+.nav-link {
     text-align: center;
-    text-decoration: none;
-    font-family: Arial;
-    font-weight: bold;
-    font-size: 150%;
+}
+
+.link-img {
+    width: 60%;
+}
+
+.divider-img {
+    width: 100%;
+    height: 350px;
 }

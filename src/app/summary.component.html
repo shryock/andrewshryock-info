@@ -1,10 +1,24 @@
 <div class="summary-content-container" fxLayout="column">
     <div fxFlex="auto" fxLayout="row" fxLayoutAlign="space-between start">
-        <img fxFlex="30%" class="summary-image" src="img/ePackProfilePic.jpg" />
-        <div fxFlex class="section-title">
-            About me
-        </div>
+        <img fxFlex="30%" class="summary-image" src="img/intern-expo.JPG"/>
+        <div fxFlex class="section-title" [innerHTML]="title"></div>
         <div fxFlex="5px" fxFlexAlign="center" class="section-divider"></div>
-        <div fxFlex="50%" fxFlexAlign="center" class="summary-content" [innerHTML]="summaryContent"></div>
+        <div fxFlex="50%" fxFlexLayout="column" fxFlexAlign="center">
+            <div class="summary-content" [innerHTML]="summaryContent">
+            </div><br/>
+            <div fxFlexLayout="column" fxLayoutAlign="space-around center">
+                <a href="mailto:ajshryoc@ncsu.edu" target="_blank" class="contact-link tooltip">
+                    <span class="tooltiptext" [innerHTML]="email">
+                    </span>
+                    <img src="img/email.png" class="contact-img"/>
+                </a>
+                <a href="https://github.com/shryock" target="_blank" class="contact-link"><img src="img/github.png" class="contact-img"/></a>
+            </div><br/>
+            <div fxFlexLayout="column" fxLayoutAlign="space-around center">
+                <a href="https://www.linkedin.com/in/andrew-shryock
+" target="_blank" class="contact-link"><img src="img/linkedin.png" class="contact-img"/></a>
+                <a href="https://twitter.com/AndrewShryock" target="_blank" class="contact-link"><img src="img/twitter.png" class="contact-img"/></a>
+            </div>
+        </div>
     </div>
 </div><br/>

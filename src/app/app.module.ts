@@ -3,7 +3,6 @@ import { NgModule }                 from '@angular/core';
 import { BrowserAnimationsModule }  from '@angular/platform-browser/animations';
 import { FormsModule }              from '@angular/forms';
 import { FlexLayoutModule }         from '@angular/flex-layout';
-import { NguiParallaxScrollModule } from '@ngui/parallax-scroll';
 
 import { AppComponent }             from './app.component';
 import { NavComponent }             from './nav.component';
@@ -12,7 +11,6 @@ import { SkillsComponent }          from './skills.component';
 import { ExpComponent }             from './exp.component';
 import { ProjectsComponent }        from './projects.component';
 import { AboutComponent }           from './about.component';
-import { SocialComponent }          from './social.component';
 
 @NgModule({
   declarations: [
@@ -22,14 +20,12 @@ import { SocialComponent }          from './social.component';
     SkillsComponent,
     ExpComponent,
     ProjectsComponent,
-    AboutComponent,
-    SocialComponent
+    AboutComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    FlexLayoutModule,
-    NguiParallaxScrollModule
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

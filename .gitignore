@@ -1,5 +1,10 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
+# GIMP image files
+*.xcf
+
+nodejslicense.txt
+
 # compiled output
 /dist
 /tmp
