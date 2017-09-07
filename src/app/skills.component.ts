@@ -8,8 +8,7 @@ import { PersonalListEntry } from './personallistentry';
 })
 
 export class SkillsComponent {
-    parallaxImage = "";
-    listTitle = "Skills"
+    titleImg = "img/skills-header.png";
     list = [
         {
             name: "C Programming",

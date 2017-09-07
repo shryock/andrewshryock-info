@@ -8,8 +8,7 @@ import { PersonalListEntry } from './personallistentry';
 })
 
 export class ExpComponent {
-    parallaxImage = "";
-    listTitle = "Experience";
+    titleImg = "img/exp-header.png";
     list = [
         {
             name: "SAS",

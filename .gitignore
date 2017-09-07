@@ -4,6 +4,7 @@
 *.xcf
 
 nodejslicense.txt
+.editorconfig
 
 # compiled output
 /dist

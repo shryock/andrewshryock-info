@@ -8,7 +8,7 @@ import { PersonalListEntry } from './personallistentry';
 })
 
 export class ProjectsComponent {
-    listTitle = "Other Projects";
+    titleImg = "";
     list = [
         {
             name: "Asteroid Escape",

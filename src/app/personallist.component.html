@@ -1,6 +1,8 @@
 <div fxFlexAlign="center">
     <div fxLayout="row">
-        <div fxFlex class="section-title" [innerHTML]="listTitle"></div>
+        <div fxFlex>
+            <img src="{{titleImg}}"/>
+        </div>
         <div fxFlex="5px" fxFlexAlign="start" class="section-divider"></div>
         <ul fxFlex="grow" class="personal-list">
             <li *ngFor="let listEntry of list">
